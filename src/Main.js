@@ -25,7 +25,7 @@ class Main extends React.Component {
       <div className='main-wrapper'>
         <div className='main'>
           <div className='copy-container'>
-            <h1>KOTARO YAMAMOTO ACTIVITIES</h1>
+            <h1>COTARO YAMAMOTO ACTIVITIES</h1>
           </div>
           <div className='lesson-container'>
             <h3>山本浩太郎のかつどう</h3>

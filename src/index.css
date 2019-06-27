@@ -18,7 +18,7 @@ h1 {
 
 h2, h3 {
   font-family: "Lato";
-  color: #2b546a;
+  color: #21100C;
   font-weight: 300;
 }
 
@@ -80,7 +80,6 @@ h3 {
   border-radius: 4px;
   margin: 48px 0 64px;
   width: 320px;
-  text-align: center;
 }
 
 .lesson-item img {
@@ -88,7 +87,17 @@ h3 {
 }
 
 .lesson-item p {
-  color: #2b546a;
+  color: #21100C;
+  display: inline-flex;
+}
+
+.lesson-item p .englishName{
+  color: white;
+  transition-duration: 1s;
+}
+
+.lesson-item p:hover .englishName{
+  color: #21100C;
 }
 
 .modal {
@@ -178,8 +187,4 @@ h3 {
 
 .Activity-card{
   display: inline-flex;
-  /* display:  inline-block;
-  box-sizing: border-box;
-  width: 256px;
-  padding: 0 128x; */
 }
