@@ -19,6 +19,11 @@ class Main extends React.Component {
 				englishName: 'Creation',
         introduction: 'JavaScriptはフロントエンドだけでなく、サーバーサイドまで広い可能性を持つプログラミング言語です。',
       },
+      {
+				name: 'ソーシャルメディア',
+				englishName: 'SNS',
+        introduction: 'JavaScriptはフロントエンドだけでなく、サーバーサイドまで広い可能性を持つプログラミング言語です。',
+      },
     ];
 
     return (

@@ -14,6 +14,7 @@ h1 {
   font-size: 56px;
   font-weight: 400;
   color: #21100C;
+  text-align: center;
 }
 
 h2, h3 {
@@ -29,27 +30,27 @@ h2 {
 
 h3 {
   font-size: 20px;
-  border-bottom: 1px solid #e1e6ec;
+  border-bottom: 1px solid #333;
   line-height: 64px;
   margin-bottom: 40px;
 }
 
 .header {
   height: 60px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #333;
 }
 
 .header-logo {
   height: 60px;
   width: 60px;
-  background-color: #95CDF0;
+  background-color: #333;
   float: left;
   text-align: center;
 }
 
 .header-logo img {
-  width: 58px;
-  padding-top: 0px;
+  width: 28px;
+  padding-top: 16px;
 }
 
 .main-wrapper {
@@ -63,7 +64,7 @@ h3 {
 }
 
 .lesson-container {
-  margin-top: 96px;
+  margin:96px 128px 0 128px;
 }
 
 .lesson-card {
@@ -71,15 +72,14 @@ h3 {
   width: 22.5%;
   margin-right: 24px;
   text-align: center;
-  box-shadow: 0 0 6px #e8e8e8;
+  box-shadow: 0 0 6px #333;
   background-color: #fff;
   cursor: pointer;
 }
 
 .lesson-item {
   border-radius: 4px;
-  margin: 48px 0 64px;
-  width: 320px;
+  margin: 16px 32px;
 }
 
 .lesson-item img {
@@ -87,17 +87,7 @@ h3 {
 }
 
 .lesson-item p {
-  color: #21100C;
   display: inline-flex;
-}
-
-.lesson-item p .englishName{
-  color: white;
-  transition-duration: 1s;
-}
-
-.lesson-item p:hover .englishName{
-  color: #21100C;
 }
 
 .modal {
@@ -171,7 +161,7 @@ h3 {
 }
 
 .footer-logo p {
-  color: #b1c0c0;
+  color: #333;
   font-size: 12px;
 }
 
@@ -180,11 +170,24 @@ h3 {
 }
 
 .footer-inner li {
-  color: #2b546a;
+  color: #333;
   display: inline-block;
   padding-left: 16px;
 }
 
 .Activity-card{
   display: inline-flex;
+  border: 1px solid #333;
+  color: #333;
+  margin: 0 -1px -1px 0;
+  width: 384px;
+}
+
+.Activity-card .englishName{
+  color: #fff;
+  transition-duration: 1s;
+}
+
+.Activity-card:hover .englishName{
+  color: #333;
 }

@@ -3,17 +3,15 @@ import React from 'react';
 class Activity extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {isModalOpen: false
-    };
+    this.state = {isModalOpen: false};
   }
 
   handleClickActivity() {
-    this.setState({isModalOpen: true});
+    this.setState({isModalOpen: true})
   }
   
   handleClickClose() {
     this.setState({isModalOpen: false})
-    
   }
 
   render() {
@@ -38,19 +36,21 @@ class Activity extends React.Component {
       );
     }
 
+
     return (
-      <div className='Activity-card'>
-        <div
-          className='lesson-item'
-          onClick={() => {this.handleClickActivity()}}
-        >
+      <span> 
+      <div className='Activity-card'
+        onClick={() => {this.handleClickActivity()}}
+      >
+        <div className='lesson-item'>
           <p>
             {this.props.name}
             <div className='englishName'>/{this.props.englishName}</div>
           </p>
         </div>
-        {modal}
       </div>
+      {modal}
+      </span>
     );
   }
 }
