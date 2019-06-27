@@ -1,12 +1,12 @@
 import React from 'react';
-import imgUrl from './images/icon.jpg';
+// import imgUrl from './images/icon.jpg';
 
 class Header extends React.Component {
   render() {
     return (
       <div className='header'>
         <div className='header-logo'>
-          <img src={imgUrl} alt="ICON" />
+        <img src='https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/react/character_logo.svg' alt=''/>
         </div>
       </div>
     );
