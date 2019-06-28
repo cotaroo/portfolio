@@ -191,3 +191,7 @@ h3 {
 .Activity-card:hover .englishName{
   color: #333;
 }
+
+a {
+  text-decoration: none;
+}

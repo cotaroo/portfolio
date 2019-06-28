@@ -1,17 +1,17 @@
 import React from 'react';
 import './App.css';
 import Header from './Header';
-import Main from './Main';
+import MainForProgramming from './MainForProgramming';
 import Footer from './Footer';
 
-function App() {
+function Programming() {
   return (
     <div>
       <Header />
-      <Main />
+      <MainForProgramming />
       <Footer />
     </div>
   );
 }
 
-export default App;
+export default Programming;

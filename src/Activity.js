@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 class Activity extends React.Component {
   constructor(props) {
@@ -13,6 +14,11 @@ class Activity extends React.Component {
   handleClickClose() {
     this.setState({isModalOpen: false})
   }
+
+  handleToAboutPage = () => {
+    this.props.history.push('/programming')
+  }
+
 
   render() {
     let modal;
@@ -39,17 +45,17 @@ class Activity extends React.Component {
 
     return (
       <span> 
-      <div className='Activity-card'
-        onClick={() => {this.handleClickActivity()}}
-      >
+      <Link to ="/programming" >
+      <div className='Activity-card'>
         <div className='lesson-item'>
           <p>
-            {this.props.name}
-            <div className='englishName'>/{this.props.englishName}</div>
+            <div>{this.props.name}</div>
+            <div className='englishName'>/{this.props.englishName}</div>
           </p>
         </div>
       </div>
       {modal}
+      </Link>
       </span>
     );
   }
