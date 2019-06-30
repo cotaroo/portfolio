@@ -2,15 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import './index.css';
-import App from './App';
-import Programming from './Programming';
+import App from './App/App';
+import Programming from './Programming/App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
 	<BrowserRouter>
 		<Switch>
-		<Route exact path="/" component={App} />
-		<Route path="/programming" component={Programming} />
+		<Route exact path='/' component={App} />
+		<Route path='/programming' component={Programming} />
+		{/* <Route path='/schoolwork' component={Schoolwork} />
+		<Route path='/sns' component={Sns} /> */}
 		</Switch>
 	</BrowserRouter>
 	,
