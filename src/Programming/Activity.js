@@ -1,16 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 class Activity extends React.Component {
-
-//   handleToAboutPage = () => {
-//     this.props.history.push('/')
-//   }
 
   render() {
     return (
       <span> 
-      <Link to='/'>
+      {/* <Link to='/'> */}
       <div className='Activity-card'>
         <div className='lesson-item'>
           <p>
@@ -19,10 +15,10 @@ class Activity extends React.Component {
           </p>
         </div>
       </div>
-      </Link>
+      {/* </Link> */}
       </span>
     );
-  }
+	}
 }
 
 export default Activity;

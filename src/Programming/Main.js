@@ -1,5 +1,6 @@
 import React from 'react';
 import Activity from '../Programming/Activity';
+import Content from '../Programming/Content';
 
 class Main extends React.Component {
   render() {
@@ -7,13 +8,15 @@ class Main extends React.Component {
       {
         name: '晩ごはんカレンダー',
         englishName: 'Dinner Calendar',
-        introduction: 'WEBページはHTML、CSSという言語によってその見た目が作られています。 実際にWEBページを作りながら学んでみましょう！',
+        image: 'image for dinner calendar',
+        introduction: 'introduction for dinner calendar'
       },
       {
         name: 'ポートフォリオ',
         englishName: 'Portofolio',
-        introduction: 'SassはCSSをより便利に効率的にするための言語です。',
-      },
+        image: 'image for portfolio',
+        introduction: 'introduction for portfolio'
+      }
     ];
 
     return (
@@ -29,10 +32,17 @@ class Main extends React.Component {
 									<Activity
                     name={activityItem.name}
                     englishName={activityItem.englishName}
-										introduction={activityItem.introduction}
 									/>
 								);
-							})}
+              })}
+              {ActivityList.map((activityItem) => {
+								return (
+									<Content
+                    image={activityItem.image}
+										introduction={activityItem.introduction}
+									/>
+                );
+              })}
           </div>
         </div>
       </div>
