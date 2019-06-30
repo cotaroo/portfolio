@@ -7,22 +7,26 @@ class Main extends React.Component {
       {
 				name: 'プログラミング',
 				englishName: 'Programming',
-        introduction: 'WEBページはHTML、CSSという言語によってその見た目が作られています。 実際にWEBページを作りながら学んでみましょう！',
+        // introduction: 'WEBページはHTML、CSSという言語によってその見た目が作られています。 実際にWEBページを作りながら学んでみましょう！',
+        url: '/programming'
       },
       {
 				name: '学業',
 				englishName: 'Schoolwork',
-        introduction: 'SassはCSSをより便利に効率的にするための言語です。',
+        // introduction: 'SassはCSSをより便利に効率的にするための言語です。',
+        url: '/schoolwork'
       },
       {
 				name: '創作',
 				englishName: 'Creation',
-        introduction: 'JavaScriptはフロントエンドだけでなく、サーバーサイドまで広い可能性を持つプログラミング言語です。',
+        // introduction: 'JavaScriptはフロントエンドだけでなく、サーバーサイドまで広い可能性を持つプログラミング言語です。',
+        url: '/creation'
       },
       {
 				name: 'ソーシャルメディア',
 				englishName: 'SNS',
-        introduction: 'JavaScriptはフロントエンドだけでなく、サーバーサイドまで広い可能性を持つプログラミング言語です。',
+        // introduction: 'JavaScriptはフロントエンドだけでなく、サーバーサイドまで広い可能性を持つプログラミング言語です。',
+        url: '/sns'
       },
     ];
 
@@ -39,7 +43,8 @@ class Main extends React.Component {
 									<Activity
 										name={activityItem.name}
 										englishName={activityItem.englishName}
-										introduction={activityItem.introduction}
+                    // introduction={activityItem.introduction}
+                    url={activityItem.url}
 									/>
 								);
 							})}

@@ -1,15 +1,17 @@
 import React from 'react';
-import Activity from './Activity';
+import Activity from '../Programming/Activity';
 
-class MainForProgramming extends React.Component {
+class Main extends React.Component {
   render() {
     const ActivityList = [
       {
-				name: 'Ruby',
+        name: '晩ごはんカレンダー',
+        englishName: 'Dinner Calendar',
         introduction: 'WEBページはHTML、CSSという言語によってその見た目が作られています。 実際にWEBページを作りながら学んでみましょう！',
       },
       {
-				name: 'JavaScript',
+        name: 'ポートフォリオ',
+        englishName: 'Portofolio',
         introduction: 'SassはCSSをより便利に効率的にするための言語です。',
       },
     ];
@@ -25,7 +27,8 @@ class MainForProgramming extends React.Component {
 							{ActivityList.map((activityItem) => {
 								return (
 									<Activity
-										name={activityItem.name}
+                    name={activityItem.name}
+                    englishName={activityItem.englishName}
 										introduction={activityItem.introduction}
 									/>
 								);
@@ -37,4 +40,4 @@ class MainForProgramming extends React.Component {
   }
 }
 
-export default MainForProgramming;
+export default Main;
