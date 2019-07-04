@@ -80,10 +80,11 @@ h3 {
 .lesson-item {
   border-radius: 4px;
   margin: 16px 32px;
+  text-align:center;
 }
 
 .lesson-item img {
-  width: 126px;
+  width: 256px;
 }
 
 .lesson-item p {
@@ -192,6 +193,35 @@ h3 {
   color: #333;
 }
 
+.Activity-card .englishNameWhenClick{
+  color: #333;
+}
+
 a {
   text-decoration: none;
 }
+
+.Image-card{
+  display: inline-flex;
+  border: 1px solid #333;
+  color: #333;
+  margin: 0 -1px -1px 0;
+  width: 769px;
+  height: 512px;
+}
+
+.image-item {
+  border-radius: 4px;
+  margin: 32px auto;
+  text-align:center;
+}
+
+.image-item img {
+  max-width: 384px;
+  max-height: 384px;
+}
+
+/* .introduction-for-iphone-app{
+  float:right;
+  margin-left: 16px;
+} */
