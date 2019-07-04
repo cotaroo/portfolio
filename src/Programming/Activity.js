@@ -2,12 +2,15 @@ import React from 'react';
 // import { Link } from 'react-router-dom';
 
 class Activity extends React.Component {
-
+  clickButton() {
+    return this.props.dataImages();
+  }
   render() {
     return (
       <span> 
       {/* <Link to='/'> */}
-      <div className='Activity-card'>
+      <div className='Activity-card'
+        button onClick={() => { this.clickButton(); }}>
         <div className='lesson-item'>
           <p>
             <div>{this.props.name}</div>
