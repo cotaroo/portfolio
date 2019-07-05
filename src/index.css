@@ -232,6 +232,13 @@ a {
   text-align: initial;
 }
 
+.image-item a{
+  margin: 8px 32px 8px 32px;
+  font-size: 96px;
+}
+
+
+
 
 /* .introduction-for-iphone-app{
   float:right;
