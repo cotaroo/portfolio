@@ -5,6 +5,7 @@ import './index.css';
 import App from './App/App';
 import Programming from './Programming/App';
 import Schoolwork from './Schoolwork/App';
+import Creation from './Creation/App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
@@ -13,6 +14,7 @@ ReactDOM.render(
 		<Route exact path='/' component={App} />
 		<Route path='/programming' component={Programming} />
 		<Route path='/schoolwork' component={Schoolwork} />
+		<Route path='/creation' component={Creation} />
 		{/* <Route path='/sns' component={Sns} /> */}
 		</Switch>
 	</BrowserRouter>
