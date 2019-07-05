@@ -207,19 +207,29 @@ a {
   color: #333;
   margin: 0 -1px -1px 0;
   width: 769px;
-  height: 512px;
+  height: 576px;
 }
 
 .image-item {
-  border-radius: 4px;
-  margin: 32px auto;
-  text-align:center;
+  width: 769px;
+  height: 576px;
+  text-align: center;
 }
+
 
 .image-item img {
   max-width: 384px;
   max-height: 384px;
+  margin: 32px 0;
 }
+
+.image-item li {
+  max-width: 384px;
+  max-height: 384px;
+  margin: 8px 0 8px 212px;
+  text-align: initial;
+}
+
 
 /* .introduction-for-iphone-app{
   float:right;
