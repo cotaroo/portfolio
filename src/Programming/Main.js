@@ -25,7 +25,7 @@ class Main extends React.Component {
   constructor(props) {
     super(props);
     this.state = {image: DinnerCalendar,
-                  introduction: 'introduction for dinner calendar',
+                introduction: '母親に晩ごはんの予定を伝えるためのアプリ<br>開発期間:2019/4 下旬~2019/5 上旬<br>Ruby On Railsで開発',
                   isVisible: false
                 };
   }
@@ -81,7 +81,10 @@ class Main extends React.Component {
                 {/* <div className='image-item'> */}
                 <Box  className='image-item' pose={this.state.isVisible ? 'hidden' : 'visible'}>
                   <img src={this.state.image} alt='' />
-                  <div>{this.state.introduction}</div>
+                  {/* <div>{this.state.introduction}</div> */}
+                  {this.state.introduction.split('<br>').map(function(line) {
+                    return (<li>{line}</li>);
+                  })}
                 </Box>
                 {/* </div> */}
               </div>
