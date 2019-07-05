@@ -8,7 +8,7 @@ const props = {
   visible: { 
     opacity: 1,
     transition: {
-      duration: 512
+      duration: 256
     }
   },
   hidden: { 
@@ -25,7 +25,7 @@ class Main extends React.Component {
   constructor(props) {
     super(props);
     this.state = {image: DinnerCalendar,
-                introduction: '母親に晩ごはんの予定を伝えるためのアプリ<br>開発期間:2019/4 下旬~2019/5 上旬<br>Ruby On Railsで開発',
+                introduction: '母親に晩ごはんの予定を伝えるためのアプリ<br>開発期間:2019/4 下旬~2019/5 上旬<br>Ruby On Railsで開発<br>LINE Botで予定を送信可能',
                   isVisible: false
                 };
   }
@@ -39,7 +39,7 @@ class Main extends React.Component {
 				clearInterval(timer_id);
 			}
     this.setState({image: image, introduction: introduction, isVisible: !this.state.isVisible})
-  }, 512);
+  }, 256);
   }
 
   render() {
@@ -48,13 +48,13 @@ class Main extends React.Component {
         name: '晩ごはんカレンダー',
         englishName: 'Dinner Calendar',
         image: DinnerCalendar,
-        introduction: 'introduction for dinner calendar'
+        introduction: '母親に晩ごはんの予定を伝えるためのアプリ<br>開発期間:2019/4 下旬~2019/5 上旬<br>Ruby On Railsで開発<br>LINE Botで予定を送信可能'
       },
       {
         name: 'ポートフォリオ',
         englishName: 'Portofolio',
         image: Portfolio,
-        introduction: 'introduction for portfolio'
+        introduction: '作品を紹介するサイト<br>開発期間:2019/6 下旬~2019/7 上旬<br>Reactで開発<br>※本サイトのことです'
       }
     ];
 

@@ -207,7 +207,7 @@ a {
   color: #333;
   margin: 0 -1px -1px 0;
   width: 769px;
-  height: 576px;
+  height: 592px;
 }
 
 .image-item {
@@ -218,9 +218,10 @@ a {
 
 
 .image-item img {
-  max-width: 384px;
+  max-width: 640px;
   max-height: 384px;
-  margin: 32px 0;
+  margin: 32px 0 16px 0;
+  border:double 6px #666666;
 }
 
 .image-item li {
