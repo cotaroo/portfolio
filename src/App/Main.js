@@ -23,8 +23,8 @@ class Main extends React.Component {
         url: '/creation'
       },
       {
-				name: 'ソーシャルアカウント',
-				englishName: 'SNS',
+				name: 'ＳＮＳ',
+				englishName: 'Social Media',
         // introduction: 'JavaScriptはフロントエンドだけでなく、サーバーサイドまで広い可能性を持つプログラミング言語です。',
         url: '/sns'
       },
