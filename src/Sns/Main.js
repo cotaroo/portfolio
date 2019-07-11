@@ -49,14 +49,14 @@ class Main extends React.Component {
     const ActivityList = [
       {
         name: 'エンジニア用アカウント',
-        englishName: 'As an Engineer',
+        englishName: 'As Engineer',
         image: AsEngineer,
         account:[{name: faTwitterSquare, url: 'https://twitter.com/creataro54',color: '#3eaded'},
                   {name: faGithubSquare, url: 'https://github.com/cotaroo',color: '#333'}]
       },
       {
         name: '創作用アカウント',
-        englishName: 'As an Creater',
+        englishName: 'As Creator',
         image: AsCreater,
         account:[{name: faTwitterSquare, url: 'https://twitter.com/Creataro1',color: '#3eaded'},
         {name: faInstagram, url: 'https://www.instagram.com/creataro54',color:'#3f729b'}]

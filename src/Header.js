@@ -11,6 +11,10 @@ class Header extends React.Component {
             </a></div>
         <nav class="gnav">
         <ul class="gnav__menu">
+            <li class="gnav__menu__item"><a href="/">
+            <div>TopPage</div>
+            <div className='japaneseName'>トップ</div>
+            </a></li>
             <li class="gnav__menu__item"><a href="/programming">
             <div>Programming</div>
             <div className='japaneseName'>プログラミング</div>
