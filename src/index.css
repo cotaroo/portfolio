@@ -63,9 +63,12 @@ h3 {
 
 .gnav__menu{
   display: flex;
+  margin-top: 10px;
 }
 .gnav__menu__item{
   margin-right: 48px;
+  padding-top: 10px;
+  margin-top: 0px;
 }
 
 .gnav__menu__item a{
@@ -79,6 +82,7 @@ h3 {
   text-decoration: none;
   transition-duration: 1s;
   font-size: 12px;
+  padding-left: 5px;
 }
 
 .gnav__menu__item:hover .japaneseName{
@@ -86,6 +90,7 @@ h3 {
   text-decoration: none;
   transition-duration: 1s;
   font-size:12px;
+  padding-left: 5px;
 }
 
 .main-wrapper {
