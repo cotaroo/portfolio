@@ -10,15 +10,17 @@ ul {
 }
 
 h1 {
-  font-family: "Avenir Next";
+  /* font-family: "Avenir Next"; */
+  font-family: 'Vollkorn', serif;
   font-size: 56px;
   font-weight: 400;
   color: #21100C;
   text-align: center;
+  margin: 16px auto;
 }
 
 h2, h3 {
-  font-family: "Lato";
+  font-family: 游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN","Hiragino Mincho Pro",HGS明朝E,メイリオ,Meiryo,serif;
   color: #21100C;
   font-weight: 300;
 }
@@ -32,7 +34,7 @@ h3 {
   font-size: 20px;
   border-bottom: 1px solid #333;
   line-height: 64px;
-  margin-bottom: 40px;
+  margin-bottom: 32px;
 }
 
 .header {
@@ -45,6 +47,10 @@ h3 {
   height: 48px;
   opacity: 0.96;
 }
+
+/* .header-logo{
+  font-family: 'Vollkorn', serif;
+} */
 
 /* .header-logo {
   height: 60px;
@@ -100,11 +106,11 @@ h3 {
 .main {
   max-width: 1040px;
   margin: 0 auto;
-  padding: 96px 0;
+  padding: 64px 0;
 }
 
 .lesson-container {
-  margin:96px 128px 0 128px;
+  margin:32px 128px 0 128px;
 }
 
 .lesson-card {
@@ -185,7 +191,7 @@ h3 {
 }
 
 .footer {
-  padding: 80px 0;
+  padding: 4px 0;
 }
 
 .footer-inner {
@@ -220,6 +226,11 @@ h3 {
   display: inline-block;
   padding-left: 16px;
   font-size: 32px;
+}
+
+.footer-list{
+  margin-top: 0;
+  margin-bottom: 32px;
 }
 
 .Activity-card{

@@ -25,7 +25,7 @@ class Main extends React.Component {
   constructor(props) {
     super(props);
     this.state = {image: CasinoGame,
-                introduction: 'カジノゲームが遊べるコンソールアプリ<br>開発期間:2017/12 下旬~2018/1 上旬<br>Javaの授業で開発<br>グループ開発　担当：カジノゲーム,所持金管理' ,
+                introduction: 'カジノゲームが遊べるコンソールアプリ<br>開発期間:2017/12 下旬~2018/1 上旬<br>Javaの授業でグループで開発<br>担当：カジノゲーム、所持金管理機能' ,
                   isVisible: false
                 };
   }
