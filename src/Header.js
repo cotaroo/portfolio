@@ -29,6 +29,9 @@ class Header extends React.Component {
             <li class="gnav__menu__item"><a href="/sns">
             <div>Social Media</div>
             <div className='japaneseName'>SNS</div></a></li>
+            <li class="gnav__menu__item"><a href="/profile">
+            <div>Profile</div>
+            <div className='japaneseName'>プロフィール</div></a></li>
         </ul>
     </nav>
       </div>

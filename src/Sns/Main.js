@@ -55,7 +55,7 @@ class Main extends React.Component {
                   {name: faGithubSquare, url: 'https://github.com/cotaroo',color: '#333'}]
       },
       {
-        name: '創作用アカウント',
+        name: 'クリエイター用アカウント',
         englishName: 'As Creator',
         image: AsCreater,
         account:[{name: faTwitterSquare, url: 'https://twitter.com/Creataro1',color: '#3eaded'},
